@@ -35,6 +35,9 @@ The framework for the client app is Angular 5. Please follow instructions on how
 * in the ngx-drag-scroll/functions folder the index.js file should be overwritten with this project's and the npm dependencies should match and be installed
 * Run the commands “ng build —prod” and then “firebase serve” or "firebase deploy". 
 
+Your root project folder should look like this. 
+![Root folder](https://image.ibb.co/kW1AcS/project.png "Root folder")
+
 #### _Demo_
 You can see a demo of the project here:
 <https://test-4a274.firebaseapp.com>
