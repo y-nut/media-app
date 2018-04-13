@@ -2,7 +2,7 @@
 _Last edited 13.04.2018_
 
 A basic VOD (Video On Demand) single page application based on Angular 5 and Localstorage on Client’s side and Google Cloud Functions and Javascript (NodeJS) on the server side. 
-The root/home page shows a reel of movie art images that user selects to get to the video player. The user can navigate around on the different pages with the following keyboard buttons: Directional, Escape, and Enter.
+The root/home page shows a reel of movie art images that the user selects to get to the video player. The user can navigate around on the different pages with the following keyboard buttons: Directional, Escape, and Enter.
 
 The video source is the following external JSON file:
 <https://sela-test.herokuapp.com/assets/hkzxv.json>
@@ -31,8 +31,9 @@ The framework for the client app is Angular 5. Please follow instructions on how
 * Follow instructions on <https://github.com/bfwg/ngx-drag-scroll> to create the "base" root folder for this project. If this has been followed, the project folder will be called ngx-drag-scroll
 * Download this project's root folder and overwrite the ngx-drag-scroll/demo folder in the project with this project's root folder.
 * Make sure all dependencies are installed according to ngx-drag-scroll/demo/app/app.module.ts and package.json. For instance, you should install Videogular 2. <https://videogular.github.io/videogular2/docs/getting-started/>
-* Initiate a Firebase project in ngx-drag-scroll with hosting and functions. Functions should be based on Javascript
+* Initiate a Firebase project in ngx-drag-scroll with hosting and functions. Functions should be based on Javascript. The public folder in the firebase.json file should be dist. This folder will then be auto generated when giving the command "ng build --prod"
 * in the ngx-drag-scroll/functions folder the index.js file should be overwritten with this project's and the npm dependencies should match and be installed
+
 * Run the commands “ng build —prod” and then “firebase serve” or "firebase deploy". 
 
 Your root project folder should look like this. 
