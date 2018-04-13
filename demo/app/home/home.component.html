@@ -1,0 +1,30 @@
+<div class="content">
+
+    <p class="title">Choose movie</p>
+    <div class="demo-border">
+      <div class="demo-one"
+        dragScroll
+        drag-scroll-y-disabled="true"
+        scrollbar-hidden="true"
+        (reachesLeftBound)="leftBoundStat($event)"
+        (reachesRightBound)="rightBoundStat($event)"
+        #nav
+        >
+
+        <ng-container *ngFor="let obj of videoSvc.res.entries" >
+          <figure>
+            <img [src]="imgResolve(obj)" alt="Movie art" (tap)="videoSvc.selectVideo(obj)" >
+            <figcaption>{{obj.title}}</figcaption>
+          </figure>
+        </ng-container>
+
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
+      <button mat-raised-button color="primary" [disabled]="leftNavDisabled" (tap)="videoSvc.moveLeft()">left</button>
+      <button mat-raised-button color="primary" [disabled]="rightNavDisabled" (tap)="videoSvc.moveRight()">right</button>
+      <button mat-raised-button color="accent"  routerLink="/list">List</button>
+    </div>
+
+  </div>
+

@@ -31,6 +31,7 @@ The framework for the client app is Angular 5. Please follow instructions on how
 * Follow instructions on <https://github.com/bfwg/ngx-drag-scroll> to create the "base" root folder for this project. If this has been followed, the project folder will be called ngx-drag-scroll
 * Download this project's root folder and overwrite the ngx-drag-scroll/demo folder in the project with this project's root folder.
 * Initiate a Firebase project in ngx-drag-scroll with hosting and functions. Functions should be based on Javascript
+* in the ngx-drag-scroll/functions folder the index.js file should be overwritten with this project's and the npm dependencies should match and be installed
 * Run the commands “ng build —prod” and then “firebase serve” or "firebase deploy". 
 
 #### _Demo_

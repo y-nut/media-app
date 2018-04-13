@@ -1,0 +1,34 @@
+<!--mat-toolbar color="primary" class="app-navbar">
+  <button mat-button matRipple routerLink="/">
+    <img alt="Angular" class="app-angular-logo" src="assets/img/angular-white-transparent.svg">
+    <span>ngx-drag-scroll</span>
+  </button>
+  <span class="example-spacer"></span>
+  <mat-icon class="example-icon">verified_user</mat-icon>
+</mat-toolbar-->
+
+<!--mat-toolbar-row color="primary" class="app-navbar">
+  <span>Second Line</span>
+  <span class="example-spacer"></span>
+  <mat-icon class="example-icon">verified_user</mat-icon>
+</mat-toolbar-row-->
+
+<mat-toolbar color="primary">
+
+  <div [hidden]='videoSvc.hideBack'>
+    <!--button mat-button matRipple routerLink="/" -->
+    <button mat-button matRipple (tap)='videoSvc.goBack()' >
+
+      <i class="fas fa-chevron-circle-left"></i>
+      <span>Back</span>
+    </button>
+  </div>
+
+  <span class="example-spacer"></span>
+
+  <button mat-button matRipple routerLink="/">
+    <img alt="Home" class="app-angular-logo" src="assets/img/AccedoLogo_RGB.png">
+  </button>
+
+</mat-toolbar>
+
