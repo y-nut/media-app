@@ -2,7 +2,7 @@
 _Last edited 13.04.2018_
 
 A basic VOD (Video On Demand) single page application based on Angular 5 and Localstorage on Client’s side and Google Cloud Functions and Javascript (NodeJS) on the server side. 
-The root/home page shows a reel of movie art images that the user selects to get to the video player. The user can navigate around on the different pages with the following keyboard buttons: Directional, Escape, and Enter.
+The root/home page shows a horisontal carousel of movie art images that the user selects to get to the video player. The user can navigate around on the different pages with the following keyboard buttons: Directional, Escape, and Enter.
 
 The video source is the following external JSON file:
 <https://sela-test.herokuapp.com/assets/hkzxv.json>
