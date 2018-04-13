@@ -40,7 +40,7 @@ The framework for the client app is Angular 5. Please follow instructions on how
 * Run the commands “ng build —prod” and then “firebase serve” or "firebase deploy". 
 
 Your root project folder should look like this. 
-![Root folder](https://image.ibb.co/kW1AcS/project.png "Root folder")
+![Root folder](https://image.ibb.co/g4mbHS/project.png "Root folder")
 
 #### _Demo_
 You can see a demo of the project here:
