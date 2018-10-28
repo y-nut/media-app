@@ -1,5 +1,4 @@
 IMPORTANT: This project provides replacement files to another project. Follow the instructions below to set up this app.
-DEMO: <https://test-4a274.firebaseapp.com>
 
 # [Media App VOD](https://github.com/y-nut/media-app)
 _Last edited 13.04.2018_
